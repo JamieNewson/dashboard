@@ -8,29 +8,240 @@
   <body>
     <div class="container">
       <div class="sidebar">
-        <div class="header"><h1>Dashboard</h1></div>
-        <ul>
-          <li>Home</li>
-          <li>Profile</li>
-          <li>Messages</li>
-          <li>History</li>
-          <li>Tasks</li>
-          <li>Communities</li>
-          <li>Settings</li>
-          <li>Support</li>
-          <li>Privacy</li>
+        <div class="header">
+          <img
+            class="sidebar-icon logo"
+            src="./icons/sidebar/logo.svg"
+            alt=""
+          />
+          <h1>Dashboard</h1>
+        </div>
+        <ul class="sidebar-list">
+          <li>
+            <img
+              class="sidebar-icon"
+              src="./icons/sidebar/home.svg"
+              alt=""
+            />Home
+          </li>
+          <li>
+            <img
+              class="sidebar-icon"
+              src="./icons/sidebar/user-card.svg"
+              alt=""
+            />Profile
+          </li>
+          <li>
+            <img
+              class="sidebar-icon"
+              src="./icons/sidebar/message.svg"
+              alt=""
+            />Messages
+          </li>
+          <li>
+            <img
+              class="sidebar-icon"
+              src="./icons/sidebar/clock.svg"
+              alt=""
+            />History
+          </li>
+          <li>
+            <img
+              class="sidebar-icon"
+              src="./icons/sidebar/note.svg"
+              alt=""
+            />Tasks
+          </li>
+          <li>
+            <img
+              class="sidebar-icon"
+              src="./icons/sidebar/people.svg"
+              alt=""
+            />Communities
+          </li>
+          <li class="break"></li>
+          <li>
+            <img
+              class="sidebar-icon"
+              src="./icons/sidebar/cog.svg"
+              alt=""
+            />Settings
+          </li>
+          <li>
+            <img
+              class="sidebar-icon"
+              src="./icons/sidebar/question.svg"
+              alt=""
+            />Support
+          </li>
+          <li>
+            <img
+              class="sidebar-icon"
+              src="./icons/sidebar/shield.svg"
+              alt=""
+            />Privacy
+          </li>
         </ul>
       </div>
       <div class="nav">
-        <img class="icon" src="./icons/magnify.svg" />
-        <div class="search-bar"></div>
-        <ul>
-          <li>
-            <img class="icon" src="./icons/bell-ring-outline.svg" alt="" />
-          </li>
-          <li><img class="user-icon" src="./icons/user-icon.jpg" alt="" /></li>
-          <li class="username">Jamie Newson</li>
-        </ul>
+        <div class="nav-top">
+          <img class="icon" src="./icons/magnify.svg" />
+          <div class="search-bar"></div>
+          <ul>
+            <li>
+              <img class="icon" src="./icons/bell-ring-outline.svg" alt="" />
+            </li>
+            <li>
+              <img class="user-icon" src="./icons/user-icon.jpg" alt="" />
+            </li>
+            <li class="username">Jamie Newson</li>
+          </ul>
+        </div>
+        <div class="nav-bottom">
+          <img class="user-icon" src="./icons/user-icon.jpg" alt="" />
+          <div>
+            <p>Hi there,</p>
+            <h2>Jamie Newson (@jamie)</h2>
+          </div>
+          <ul>
+            <li><button>New</button></li>
+            <li><button>Upload</button></li>
+            <li><button>Share</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="article">
+        <div class="projects">
+          <h3>Your Projects</h3>
+          <div class="cards">
+            <div class="card project">
+              <h4>Super Cool Project</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                iure, minus laudantium mollitia laborum earum, quis nihil
+                numquam illum aliquid cum neque.
+              </p>
+              <ul>
+                <li><img class="icon" src="./icons/star.svg" alt="" /></li>
+                <li><img class="icon" src="./icons/eye.svg" alt="" /></li>
+                <li><img class="icon" src="./icons/fork.svg" alt="" /></li>
+              </ul>
+            </div>
+            <div class="card project">
+              <h4>Less Cool Project</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
+                ut architecto aut eaque. Quae, reiciendis distinctio commodi
+                obcaecati necessitatibus maiores!
+              </p>
+              <ul>
+                <li><img class="icon" src="./icons/star.svg" alt="" /></li>
+                <li><img class="icon" src="./icons/eye.svg" alt="" /></li>
+                <li><img class="icon" src="./icons/fork.svg" alt="" /></li>
+              </ul>
+            </div>
+            <div class="card project">
+              <h4>Impossible App</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                iusto, atque repellat esse consequatur cum facilis ex, porro
+                placeat excepturi itaque?
+              </p>
+              <ul>
+                <li><img class="icon" src="./icons/star.svg" alt="" /></li>
+                <li><img class="icon" src="./icons/eye.svg" alt="" /></li>
+                <li><img class="icon" src="./icons/fork.svg" alt="" /></li>
+              </ul>
+            </div>
+            <div class="card project">
+              <h4>Easy Peasy App</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                impedit et nostrum facere illum commodi natus quos!
+              </p>
+              <ul>
+                <li><img class="icon" src="./icons/star.svg" alt="" /></li>
+                <li><img class="icon" src="./icons/eye.svg" alt="" /></li>
+                <li><img class="icon" src="./icons/fork.svg" alt="" /></li>
+              </ul>
+            </div>
+            <div class="card project">
+              <h4>Ad Blocker</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
+                explicabo libero. Quasi natus nam fugit perferendis vitae beatae
+                delectus nesciunt quibusdam deleniti.
+              </p>
+              <ul>
+                <li><img class="icon" src="./icons/star.svg" alt="" /></li>
+                <li><img class="icon" src="./icons/eye.svg" alt="" /></li>
+                <li><img class="icon" src="./icons/fork.svg" alt="" /></li>
+              </ul>
+            </div>
+            <div class="card project">
+              <h4>Money Maker</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+                dignissimos delectus ex a commodi pariatur, modi id! Dolore
+                libero.
+              </p>
+              <ul>
+                <li><img class="icon" src="./icons/star.svg" alt="" /></li>
+                <li><img class="icon" src="./icons/eye.svg" alt="" /></li>
+                <li><img class="icon" src="./icons/fork.svg" alt="" /></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="announcements">
+          <h3>Announcements</h3>
+          <div class="card">
+            <div class="announcement underline">
+              <h4>Site Maintenance</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+                distinctio libero asperiores excepturi obcaecati accusantium
+                illo. Dolores error culpa sunt?
+              </p>
+            </div>
+            <div class="announcement underline">
+              <h4>Community Share Day</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+                tempora aspernatur hic quibusdam repudiandae eligendi veritatis
+                iusto accusantium. Repudiandae, quia?
+              </p>
+            </div>
+            <div class="announcement">
+              <h4>More...</h4>
+            </div>
+          </div>
+        </div>
+        <div class="trending">
+          <h3>Trending</h3>
+          <div class="card">
+            <div class="user underline">
+              <img class="user-icon icon" src="./icons/user-2.svg" alt="" />
+              <h4 class="handle">@tegan</h4>
+              <p class="role">World Peace Builder</p>
+            </div>
+            <div class="user underline">
+              <img class="user-icon icon" src="./icons/user-icon.jpg" alt="" />
+              <h4 class="handle">@jamie</h4>
+              <p class="role">Super Cool Project</p>
+            </div>
+            <div class="user underline">
+              <img class="user-icon icon" src="./icons/user-3.png" alt="" />
+              <h4 class="handle">@kendall</h4>
+              <p class="role">Life Changing App</p>
+            </div>
+            <div class="user">
+              <img class="user-icon icon" src="./icons/user-4.svg" alt="" />
+              <h4 class="handle">@alex</h4>
+              <p class="role">No Traffic</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
